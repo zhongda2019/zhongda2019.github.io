@@ -1,11 +1,8 @@
 # 清风仲达
 ## 仲达的BLOG
-此博客于2020年3月1日建成。由于仲达的懒惰，导致很多地方未完善
-### HStark
-
-This is a blog.
+此博客于2020年3月1日建成。由于仲达的懒惰，导致很多地方未完善。此站用于分享编程代码。
+### 代码分享
 ```markdown
-
 
 - Bulleted
 - List
@@ -16,6 +13,12 @@ This is a blog.
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+```
+```markdown
+代码2
+
+```markdown
+代码3
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).

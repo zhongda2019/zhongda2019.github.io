@@ -110,6 +110,32 @@
       </tags>
   </entry>
   <entry>
+    <title>短视频无水印解析原理</title>
+    <url>/2022/08/22/%E7%9F%AD%E8%A7%86%E9%A2%91%E5%8E%BB%E6%B0%B4%E5%8D%B0%E5%8E%9F%E7%90%86/</url>
+    <content><![CDATA[<div class="note info simple"><p>特别感谢Lete乐特大佬的帮助</p>
+</div>
+<div class="note info simple"><p>本文由小白编辑，大佬绕道。若有错误或者不懂的地方，请线下交流，qq2312605703</p>
+</div>
+<div class="note info simple"><p>部分内容取自网络 侵权必删</p>
+</div>
+<div class="note warning simple"><p>只是浅显概述原理，大部分人都能看懂。初中生也能看懂本文</p>
+</div>
+<blockquote>
+<p>相信大家在皮皮虾、抖音、快手、最右等短视频平台看见喜欢的视频时，总有种下载原视频的冲动。但是直接在软件里保存的视频都有水印，影响了视频的观感。不少人已经会在微信搜索去水印小程序，或者使用去水印软件。其实这些小程序或者软件、网站去水印的原理大体都一致，没有部分人想的那么神奇。但是现在大部分去水印软件和程序都会出现广告，收费情况，有些一段时间就崩了，所以了解一下短视频去水印原理还是很有必要的。</p>
+</blockquote>
+<h2 id="抖音无水印解析原理"><a href="#抖音无水印解析原理" class="headerlink" title="抖音无水印解析原理"></a>抖音无水印解析原理</h2><p>看了很多篇无水印解析原理的文章，也询问了不少大佬，我个人觉得<strong>抖音无水印解析最为复杂</strong>。<br/><mark class="hl-label green">无水印解析的原理是拿到原视频（无水印的视频）链接</mark> <br/><mark class="hl-label blue">在抖音和皮皮虾软件里复制的视频链接是短链，经过了缩短处理，并不是真正的视频地址</mark> <br/>而我们通过复制分享链接到浏览器，通过浏览器打开的链接才是真正的视频地址。比如我的这个分享链接:<a href="https://v.douyin.com/jQE25c8/%EF%BC%8C">https://v.douyin.com/jQE25c8/，</a> 在浏览器里打开，真实的链接是这个:<a href="https://www.iesdouyin.com/share/video/7125008341419429155/?region=CN&amp;mid=">https://www.iesdouyin.com/share/video/7125008341419429155/?region=CN&amp;mid=</a><br/>其中7125008341419429155为视频id。通过浏览器的开发者模式可以看到以下代码:<br><img src="https://s2.loli.net/2022/08/22/BTlybxRu4I7SiWP.png"><br/>其中<a href="https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0">https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0</a> 为有水印的视频链接，请注意<mark class="hl-label blue">wm</mark> 这个词，wm为<mark class="hl-label green">watermark</mark> 的缩写，要想得到无水印的原视频链接，应该把<strong>wm</strong>删去。<br/>因此原视频链接为<a href="https://aweme.snssdk.com/aweme/v1/play/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0">https://aweme.snssdk.com/aweme/v1/play/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0</a><br/><strong>以上步骤纯手动完成，没有借助任何去水印软件</strong><br/>当然，如果你嫌麻烦，<mark class="hl-label blue">可以直接写几行代码得到真实视频地址，再通过把wm删去得到原视频地址</mark> </p>
+<h2 id="皮皮虾无水印解析原理"><a href="#皮皮虾无水印解析原理" class="headerlink" title="皮皮虾无水印解析原理"></a>皮皮虾无水印解析原理</h2><p>皮皮虾和抖音都是<mark class="hl-label green">字节跳动</mark> 下的产品，总体来说水印原理没什么两样，都是要拿到<mark class="hl-label red">原视频地址。</mark> <br/>同理，在软件里复制的视频链接是短链接，并不是视频真正的地址，只有在浏览器打开的地址才是真实地址。而真实地址含有<mark class="hl-label green">视频video_id，</mark> 这对拿到无水印视频很重要。<br/>以视频链接:<mark class="hl-label red">https://h5.pipix.com/s/jCeFokm/</mark> 为例。在浏览器把视频链接打开，得到的真实地址是<mark class="hl-label red">https://h5.pipix.com/item/7129757239295875332?app_id=</mark> ，其中这串数字为视频id。<br/>皮皮虾的去水印就相对简单，我们只需要讲这串数字与官方API对接，就可以拿到无水印的视频链接。<br><img src="https://s3.bmp.ovh/imgs/2022/08/22/b988533adc5526d9.jpg"><br/><br>官方API为:<a href="https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=">https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=</a><br/>所以<mark class="hl-label blue">原视频链接</mark> 为:<a href="https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=7129757239295875332">https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=7129757239295875332</a><br/>该操作在手机端也可以完成，只需要将原视频链接放在浏览器一打开便可以下载。<br/>所以，大家只要记住官方api,下次不必担心<mark class="hl-label blue">去水印小程序收费或者打广告啦</mark> 。</p>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+        <category>玩机技巧</category>
+      </categories>
+      <tags>
+        <tag>技术教程</tag>
+        <tag>玩机技巧</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>记录那些神句</title>
     <url>/2022/07/13/%E8%AE%B0%E5%BD%95%E9%82%A3%E4%BA%9B%E7%A5%9E%E5%8F%A5/</url>
     <content><![CDATA[<h1 id="盘点网友神句"><a href="#盘点网友神句" class="headerlink" title="盘点网友神句"></a>盘点网友神句</h1><ol>

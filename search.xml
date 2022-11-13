@@ -1,44 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>MIUI拯救续航</title>
-    <url>/2022/11/11/MIUI%E6%8B%AF%E6%95%91%E7%BB%AD%E8%88%AA/</url>
-    <content><![CDATA[<div class="note info simple"><p>部分内容非原创，来源于网络</p>
-</div>
-<div class="note info simple"><p>文章只提供思路，具体效果自测</p>
-</div>
-<h1 id="MIUI如何拯救续航"><a href="#MIUI如何拯救续航" class="headerlink" title="MIUI如何拯救续航"></a>MIUI如何拯救续航</h1><h2 id="一、续航是什么？"><a href="#一、续航是什么？" class="headerlink" title="一、续航是什么？"></a>一、续航是什么？</h2><mark class="hl-label green">手机续航就是手机在正常工作时的待机时间。</mark> 现在我们说的智能手机续航时间是指手机在单一维度功能使用时间，如连续视频时间、连续通话时间、连续音乐播放时间、连续无线上网时间等多项指标来衡量手机续航能力的时间,不能等同于待机时间。我们调节省电，不是为了续航抛弃一切，而是为了保证正常使用流畅的前提下，尽可能增加续航，那么仅剩的办法就是<mark class="hl-label blue">关闭系统多余设置和借助其他能禁用自启动部件的软件。</mark> 
-<h2 id="二、MIUI如何在未root模式下延长续航时间"><a href="#二、MIUI如何在未root模式下延长续航时间" class="headerlink" title="二、MIUI如何在未root模式下延长续航时间"></a>二、MIUI如何在未root模式下延长续航时间</h2><h3 id="一、关闭系统多余设置"><a href="#一、关闭系统多余设置" class="headerlink" title="一、关闭系统多余设置"></a>一、关闭系统多余设置</h3><ol>
-<li>应用商店-设置-关闭“自动升级”。</li>
-<li>设置-系统更新设置-关闭自动更新、关闭智能更新、自动升级。</li>
-<li>设置-账号与同步-关闭“自动同步数据”。</li>
-<li>设置-账号与同步-关闭“谷歌基础服务”。</li>
-<li>设置-云服务设置7天备份一次或者关闭。</li>
-<li>设置-蓝牙-高级设置-关闭“小米快连”。</li>
-<li>设置-NFC-关闭（如果要用门卡公交卡，那就不要关）。</li>
-<li>设置-息屏与锁屏-看个人喜好。</li>
-<li>设置-显示-屏幕分辨率-关闭智能省电模式（这个是造成杀后台的一个原因）。</li>
-<li>设置-显示-AI大师-全部关闭（没有用的功能）。</li>
-<li>设置-触感-如果想更省电就可以关闭</li>
-<li>设置-通知管理-手机管家-全部关闭。</li>
-<li>设置-状态栏-全关可省电，但我全开了，依旧是体验第一位。</li>
-<li>设置-桌面-模糊预览图-全部关闭（徒增功耗）。</li>
-<li>设置-隐私保护-保护隐私-位置信息-关闭高精度位置服务-位置信息服务-关闭两个扫描。</li>
-<li>手机管家-省电模式-按图设置后，打开省电模式后，去显示设置里打开60hz。 (我建议60hz，酷安上的楼主建议120hz，具体情况结合电流输出情况)<img src="https://s2.loli.net/2022/07/20/n3SiKWx2C96Uslq.jpg"></li>
-</ol>
-<h3 id="二、禁用无用系统自启应用"><a href="#二、禁用无用系统自启应用" class="headerlink" title="二、禁用无用系统自启应用"></a>二、禁用无用系统自启应用</h3><p>用WiFi激活shizuku，用shizuku激活冰箱（小黑屋也可以），禁用以下应用：<img src="https://s2.loli.net/2022/07/20/Tqe2wxkHWtK9SvV.jpg"></p>
-<h3 id="三、减少卡顿现象消耗的功耗"><a href="#三、减少卡顿现象消耗的功耗" class="headerlink" title="三、减少卡顿现象消耗的功耗"></a>三、减少卡顿现象消耗的功耗</h3><p>开启极致模式+性能模式&#x2F;省电模式，用scene5(一个软件)查看低负载时电流，比较最低电流，找到最适合自己手机的设置。 <img src="https://s2.loli.net/2022/07/20/OJgSNsH65AyrYP4.png"></p>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-        <category>玩机技巧</category>
-      </categories>
-      <tags>
-        <tag>技术教程</tag>
-        <tag>玩机技巧</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/11/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -78,6 +40,44 @@
 <li>在data文件夹打开对应软件的文件夹，在文件夹里删除相关无用的东西。或者更粗暴，直接删除整个包名文件夹（不推荐）<img src="https://s3.bmp.ovh/imgs/2022/08/20/accbc9e8beeba435.jpg"></li>
 </ol>
 <h2 id="以上都不会？用软件【存储空间清理】"><a href="#以上都不会？用软件【存储空间清理】" class="headerlink" title="以上都不会？用软件【存储空间清理】"></a>以上都不会？用软件【存储空间清理】</h2><p>如果以上教程你都不会，直接用【存储空间清理】这个软件。软件会员相当便宜，也只是一杯奶茶钱，相信诸位付得起。<img src="https://s3.bmp.ovh/imgs/2022/08/20/85a80817d2942ba5.jpg"></p>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+        <category>玩机技巧</category>
+      </categories>
+      <tags>
+        <tag>技术教程</tag>
+        <tag>玩机技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MIUI拯救续航</title>
+    <url>/2022/11/11/MIUI%E6%8B%AF%E6%95%91%E7%BB%AD%E8%88%AA/</url>
+    <content><![CDATA[<div class="note info simple"><p>部分内容非原创，来源于网络</p>
+</div>
+<div class="note info simple"><p>文章只提供思路，具体效果自测</p>
+</div>
+<h1 id="MIUI如何拯救续航"><a href="#MIUI如何拯救续航" class="headerlink" title="MIUI如何拯救续航"></a>MIUI如何拯救续航</h1><h2 id="一、续航是什么？"><a href="#一、续航是什么？" class="headerlink" title="一、续航是什么？"></a>一、续航是什么？</h2><mark class="hl-label green">手机续航就是手机在正常工作时的待机时间。</mark> 现在我们说的智能手机续航时间是指手机在单一维度功能使用时间，如连续视频时间、连续通话时间、连续音乐播放时间、连续无线上网时间等多项指标来衡量手机续航能力的时间,不能等同于待机时间。我们调节省电，不是为了续航抛弃一切，而是为了保证正常使用流畅的前提下，尽可能增加续航，那么仅剩的办法就是<mark class="hl-label blue">关闭系统多余设置和借助其他能禁用自启动部件的软件。</mark> 
+<h2 id="二、MIUI如何在未root模式下延长续航时间"><a href="#二、MIUI如何在未root模式下延长续航时间" class="headerlink" title="二、MIUI如何在未root模式下延长续航时间"></a>二、MIUI如何在未root模式下延长续航时间</h2><h3 id="一、关闭系统多余设置"><a href="#一、关闭系统多余设置" class="headerlink" title="一、关闭系统多余设置"></a>一、关闭系统多余设置</h3><ol>
+<li>应用商店-设置-关闭“自动升级”。</li>
+<li>设置-系统更新设置-关闭自动更新、关闭智能更新、自动升级。</li>
+<li>设置-账号与同步-关闭“自动同步数据”。</li>
+<li>设置-账号与同步-关闭“谷歌基础服务”。</li>
+<li>设置-云服务设置7天备份一次或者关闭。</li>
+<li>设置-蓝牙-高级设置-关闭“小米快连”。</li>
+<li>设置-NFC-关闭（如果要用门卡公交卡，那就不要关）。</li>
+<li>设置-息屏与锁屏-看个人喜好。</li>
+<li>设置-显示-屏幕分辨率-关闭智能省电模式（这个是造成杀后台的一个原因）。</li>
+<li>设置-显示-AI大师-全部关闭（没有用的功能）。</li>
+<li>设置-触感-如果想更省电就可以关闭</li>
+<li>设置-通知管理-手机管家-全部关闭。</li>
+<li>设置-状态栏-全关可省电，但我全开了，依旧是体验第一位。</li>
+<li>设置-桌面-模糊预览图-全部关闭（徒增功耗）。</li>
+<li>设置-隐私保护-保护隐私-位置信息-关闭高精度位置服务-位置信息服务-关闭两个扫描。</li>
+<li>手机管家-省电模式-按图设置后，打开省电模式后，去显示设置里打开60hz。 (我建议60hz，酷安上的楼主建议120hz，具体情况结合电流输出情况)<img src="https://s2.loli.net/2022/07/20/n3SiKWx2C96Uslq.jpg"></li>
+</ol>
+<h3 id="二、禁用无用系统自启应用"><a href="#二、禁用无用系统自启应用" class="headerlink" title="二、禁用无用系统自启应用"></a>二、禁用无用系统自启应用</h3><p>用WiFi激活shizuku，用shizuku激活冰箱（小黑屋也可以），禁用以下应用：<img src="https://s2.loli.net/2022/07/20/Tqe2wxkHWtK9SvV.jpg"></p>
+<h3 id="三、减少卡顿现象消耗的功耗"><a href="#三、减少卡顿现象消耗的功耗" class="headerlink" title="三、减少卡顿现象消耗的功耗"></a>三、减少卡顿现象消耗的功耗</h3><p>开启极致模式+性能模式&#x2F;省电模式，用scene5(一个软件)查看低负载时电流，比较最低电流，找到最适合自己手机的设置。 <img src="https://s2.loli.net/2022/07/20/OJgSNsH65AyrYP4.png"></p>
 ]]></content>
       <categories>
         <category>技术教程</category>

@@ -24,10 +24,8 @@
 <li>设置-状态栏-全关可省电，但我全开了，依旧是体验第一位。</li>
 <li>设置-桌面-模糊预览图-全部关闭（徒增功耗）。</li>
 <li>设置-隐私保护-保护隐私-位置信息-关闭高精度位置服务-位置信息服务-关闭两个扫描。</li>
-<li>手机管家-省电模式-按图设置后，打开省电模式后，去显示设置里打开60hz。 (我建议60hz，酷安上的楼主建议120hz，具体情况结合电流输出情况)<img src="https://s2.loli.net/2022/07/20/n3SiKWx2C96Uslq.jpg"></li>
+<li>手机管家-省电模式-按图设置后，打开省电模式后，去显示设置里打开60hz。 (我建议60hz，酷安上的楼主建议120hz，具体情况结合电流输出情况)<img src="https://s2.loli.net/2022/07/20/n3SiKWx2C96Uslq.jpg" alt=""><h3 id="二、禁用无用系统自启应用"><a href="#二、禁用无用系统自启应用" class="headerlink" title="二、禁用无用系统自启应用"></a>二、禁用无用系统自启应用</h3>用WiFi激活shizuku，用shizuku激活冰箱（小黑屋也可以），禁用以下应用：<img src="https://s2.loli.net/2022/07/20/Tqe2wxkHWtK9SvV.jpg" alt=""><h3 id="三、减少卡顿现象消耗的功耗"><a href="#三、减少卡顿现象消耗的功耗" class="headerlink" title="三、减少卡顿现象消耗的功耗"></a>三、减少卡顿现象消耗的功耗</h3>开启极致模式+性能模式/省电模式，用scene5(一个软件)查看低负载时电流，比较最低电流，找到最适合自己手机的设置。 <img src="https://s2.loli.net/2022/07/20/OJgSNsH65AyrYP4.png" alt=""></li>
 </ol>
-<h3 id="二、禁用无用系统自启应用"><a href="#二、禁用无用系统自启应用" class="headerlink" title="二、禁用无用系统自启应用"></a>二、禁用无用系统自启应用</h3><p>用WiFi激活shizuku，用shizuku激活冰箱（小黑屋也可以），禁用以下应用：<img src="https://s2.loli.net/2022/07/20/Tqe2wxkHWtK9SvV.jpg"></p>
-<h3 id="三、减少卡顿现象消耗的功耗"><a href="#三、减少卡顿现象消耗的功耗" class="headerlink" title="三、减少卡顿现象消耗的功耗"></a>三、减少卡顿现象消耗的功耗</h3><p>开启极致模式+性能模式&#x2F;省电模式，用scene5(一个软件)查看低负载时电流，比较最低电流，找到最适合自己手机的设置。 <img src="https://s2.loli.net/2022/07/20/OJgSNsH65AyrYP4.png"></p>
 ]]></content>
       <categories>
         <category>技术教程</category>
@@ -43,16 +41,12 @@
     <url>/2022/11/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
 <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
@@ -61,23 +55,17 @@
     <url>/2022/11/11/%E6%89%8B%E6%9C%BA%E9%87%8A%E6%94%BE%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4/</url>
     <content><![CDATA[<blockquote>
 <p>只针对安卓用户 ios系统用户请滑走<br>本文只针对存储空间不够的用户 按需取用<br>部分内容来源于网络 侵权必删</p>
-</blockquote>
-<h1 id="何为手机存储空间"><a href="#何为手机存储空间" class="headerlink" title="何为手机存储空间"></a>何为手机存储空间</h1><p>存储空间指数据存储所需要的介质。如下图，手机自身的存储空间，称之为机身存储，在Android 4.4 之前作为内部存储使用。当然内部存储空间一般是不够用的，所以需要通过插入外置SD卡来扩充存储空间，这当做外部存储<br><img src="https://upload-images.jianshu.io/upload_images/19073098-7787597e2cb0b268.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700/format/webp"></p>
+<h1 id="何为手机存储空间"><a href="#何为手机存储空间" class="headerlink" title="何为手机存储空间"></a>何为手机存储空间</h1><p>存储空间指数据存储所需要的介质。如下图，手机自身的存储空间，称之为机身存储，在Android 4.4 之前作为内部存储使用。当然内部存储空间一般是不够用的，所以需要通过插入外置SD卡来扩充存储空间，这当做外部存储<br><img src="https://upload-images.jianshu.io/upload_images/19073098-7787597e2cb0b268.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700/format/webp" alt=""></p>
 <h1 id="如何释放存储空间"><a href="#如何释放存储空间" class="headerlink" title="如何释放存储空间"></a>如何释放存储空间</h1><h2 id="一-手机自带管家进行清理"><a href="#一-手机自带管家进行清理" class="headerlink" title="一.手机自带管家进行清理"></a>一.手机自带管家进行清理</h2><mark class="hl-label green">每部手机都会有系统自带的手机管家，手机管家可以清理存储空间，并且不用担心删除自己的重要文件。但是手机管家清理并不透彻，还需要接下来的步骤</mark> 
-<p><img src="https://s3.bmp.ovh/imgs/2022/08/20/ce817c9d3aee8f1a.jpg"></p>
+<p><img src="https://s3.bmp.ovh/imgs/2022/08/20/ce817c9d3aee8f1a.jpg" alt=""></p>
 <h2 id="二-对相册进行优化处理"><a href="#二-对相册进行优化处理" class="headerlink" title="二.对相册进行优化处理"></a>二.对相册进行优化处理</h2><ol>
-<li><mark class="hl-label red">对图片进行优化压缩。</mark> <mark class="hl-label green">有些图片确实很大，对图片优化就是对图片进行压缩，减小空间。</mark> 比如你的截图这些，可以进行压缩优化，减小空间。我的手机自带优化功能，如下图
-<img src="https://s3.bmp.ovh/imgs/2022/08/20/7a8edf8b7711bc41.jpg"></li>
-<li><mark class="hl-label red">清理相册回收站。</mark> 不少人删完照片后就就不管了，实际上不少手机会把照片放入回收站。如果删去的东西确定不用了，就清空回收站，会给你释放较大存储空间。</li>
-</ol>
-<h2 id="三-借用各大云盘网盘上传资料"><a href="#三-借用各大云盘网盘上传资料" class="headerlink" title="三.借用各大云盘网盘上传资料"></a>三.借用各大云盘网盘上传资料</h2><p>相信不少人有Excel word PPT txt等重要文档吧，建议把次重要的、不常用的东西上传到自己喜欢的网盘，需要用时再去网盘下载。这样部分大文件就可以不用留在本地，而放在云端，极大释放了空间。<img src="https://s3.bmp.ovh/imgs/2022/08/20/7b554a0ac867e04d.jpg"></p>
-<h2 id="四-手动去文件管理器删除文件"><a href="#四-手动去文件管理器删除文件" class="headerlink" title="四.手动去文件管理器删除文件"></a>四.手动去文件管理器删除文件</h2><p>强烈推荐使用<mark class="hl-label red">mt管理器</mark> <br/>方法如下:<br/></p>
-<ol>
+<li><mark class="hl-label red">对图片进行优化压缩。</mark> <mark class="hl-label green">有些图片确实很大，对图片优化就是对图片进行压缩，减小空间。</mark> 比如你的截图这些，可以进行压缩优化，减小空间。我的手机自带优化功能，如下图<br><img src="https://s3.bmp.ovh/imgs/2022/08/20/7a8edf8b7711bc41.jpg" alt=""></li>
+<li><mark class="hl-label red">清理相册回收站。</mark> 不少人删完照片后就就不管了，实际上不少手机会把照片放入回收站。如果删去的东西确定不用了，就清空回收站，会给你释放较大存储空间。<h2 id="三-借用各大云盘网盘上传资料"><a href="#三-借用各大云盘网盘上传资料" class="headerlink" title="三.借用各大云盘网盘上传资料"></a>三.借用各大云盘网盘上传资料</h2>相信不少人有Excel word PPT txt等重要文档吧，建议把次重要的、不常用的东西上传到自己喜欢的网盘，需要用时再去网盘下载。这样部分大文件就可以不用留在本地，而放在云端，极大释放了空间。<img src="https://s3.bmp.ovh/imgs/2022/08/20/7b554a0ac867e04d.jpg" alt=""><h2 id="四-手动去文件管理器删除文件"><a href="#四-手动去文件管理器删除文件" class="headerlink" title="四.手动去文件管理器删除文件"></a>四.手动去文件管理器删除文件</h2>强烈推荐使用<mark class="hl-label red">mt管理器</mark> <br/>方法如下:<br/></li>
 <li>打开mt管理器，搜索Android文件夹</li>
 <li>再Android文件夹里打开data文件夹(软件数据存储文件夹)</li>
-<li>在data文件夹打开对应软件的文件夹，在文件夹里删除相关无用的东西。或者更粗暴，直接删除整个包名文件夹（不推荐）<img src="https://s3.bmp.ovh/imgs/2022/08/20/accbc9e8beeba435.jpg"></li>
+<li>在data文件夹打开对应软件的文件夹，在文件夹里删除相关无用的东西。或者更粗暴，直接删除整个包名文件夹（不推荐）<img src="https://s3.bmp.ovh/imgs/2022/08/20/accbc9e8beeba435.jpg" alt=""><h2 id="以上都不会？用软件【存储空间清理】"><a href="#以上都不会？用软件【存储空间清理】" class="headerlink" title="以上都不会？用软件【存储空间清理】"></a>以上都不会？用软件【存储空间清理】</h2>如果以上教程你都不会，直接用【存储空间清理】这个软件。软件会员相当便宜，也只是一杯奶茶钱，相信诸位付得起。<img src="https://s3.bmp.ovh/imgs/2022/08/20/85a80817d2942ba5.jpg" alt=""></li>
 </ol>
-<h2 id="以上都不会？用软件【存储空间清理】"><a href="#以上都不会？用软件【存储空间清理】" class="headerlink" title="以上都不会？用软件【存储空间清理】"></a>以上都不会？用软件【存储空间清理】</h2><p>如果以上教程你都不会，直接用【存储空间清理】这个软件。软件会员相当便宜，也只是一杯奶茶钱，相信诸位付得起。<img src="https://s3.bmp.ovh/imgs/2022/08/20/85a80817d2942ba5.jpg"></p>
+</blockquote>
 ]]></content>
       <categories>
         <category>技术教程</category>
@@ -93,11 +81,11 @@
     <url>/2022/11/11/%E6%97%A7%E6%89%8B%E6%9C%BA%E8%83%BD%E5%81%9A%E4%BB%80%E4%B9%88/</url>
     <content><![CDATA[<h1 id="旧手机能做什么"><a href="#旧手机能做什么" class="headerlink" title="旧手机能做什么"></a>旧手机能做什么</h1><p><font color="#F44336" font-weight="bold">旧手机还在家里吃灰吗？旧手机还拿去换盆换刀吗？还在低价出售旧机吗？旧机还拿去送人吗？今天就和各位分享一下自己的旧机心得（部分内容来源于网络）</font><br/></p>
 <ol>
-<li><font color="#311B92" size="5">用旧手机做一个简易监控器。</font><br/>这里最好用800W像素起步的手机，需要用到两个软件:<font color="#311B92">掌上看家采集端和掌上看家（无需root）</font> 。软件自己去网上找吧，具体图片如下（图片来源于网络）。这里说明一下，我自己尝试了一下，这种方法确实可行，不过旧手机续航能力需要足够强，需要时刻联网。如果一直充电会有安全隐患，当然只是做一个简易监控器，具体看大家怎么操作<img src="https://s3.bmp.ovh/imgs/2022/07/16/a1f5d13d3de4a964.jpeg"><br><img src="https://s3.bmp.ovh/imgs/2022/07/16/7a05d1a63e604340.jpeg"></li>
-<li><font color="#311B92" size="5">利用旧手机中继家里WIFI信号。</font><br/>家里WIFI信号太弱时常搜不到?不用怕，只要你有几部老旧手机就可以解决你的问题。<font color="#311B92">首先先下载一个软件，名字叫NetSharePro(无需ROOT) </font><br/>打开软件，手机连接到WIFI，确认WIFI连接正常以后点击开启WIFI热点就行了。注意:这里WIFI名字和密码是随机给的，不能更改。可以收到WIFI名字，证明成功。只要WIFI弱的地方不管是你工作的地方还是蹭人家的WIFI，一部老手机就能解决，手机越多，就可以中继更多的网络。<br/>我自己亲自尝试了一下，但实际上中继得到的WIFI还是很弱。<img src="https://s3.bmp.ovh/imgs/2022/07/16/aaa1f807e7fdbe4e.jpeg"><img src="https://s3.bmp.ovh/imgs/2022/07/16/20ada10b7746cbc2.jpeg"></li>
-<li><font color="#311B92" size="5">旧手机也可以用来当行车记录仪。</font><br/>旧手机也能当行车记录仪了只需要一个软件，老旧设备分分钟变成行车记录仪。<font color="#311B92">软件名:DailyRoads行车记录器(无需ROOT) </font><br/>打开软件，确保GPS已经打开 <br/>功能就如图所现，可以显示速度，GPS卫星颗数也了如指掌，只不过我在室内搜不到信号[喷]，点击左下角可以开始录制视频(录制视频前先把那个小麦克风图表先点一下)，不用就关掉，是不是非常简单。注意:使用此软件最好加一张大容量的SD卡做存储。录制的视频文件都可以直接查看。<img src="https://s3.bmp.ovh/imgs/2022/07/16/5beb19de53fb5b4e.jpeg"><img src="https://s3.bmp.ovh/imgs/2022/07/16/2db5b66fd2a197e6.jpeg"><img src="https://s3.bmp.ovh/imgs/2022/07/16/3fafe92436b7b154.jpeg"><img src="https://s3.bmp.ovh/imgs/2022/07/16/82ff536ad1730cba.jpeg"> </li>
-<li><font color="#311B92" size="5">把旧手机作为电脑副屏，监测电脑状况。</font><br/>我暂时没尝试过这个，下篇文章再与大家分享吧。<img src="https://s3.bmp.ovh/imgs/2022/07/16/47727829349aa0d7.jpeg"></li>
-<li><font color="#311B92" size="5">旧手机可以作为一台服务器，搭建网站。</font></br>我暂时没尝试过这个，下篇文章再与大家分享吧。</li>
+<li><font color="#311B92" size="5">用旧手机做一个简易监控器。</font><br/>这里最好用800W像素起步的手机，需要用到两个软件:<font color="#311B92">掌上看家采集端和掌上看家（无需root）</font> 。软件自己去网上找吧，具体图片如下（图片来源于网络）。这里说明一下，我自己尝试了一下，这种方法确实可行，不过旧手机续航能力需要足够强，需要时刻联网。如果一直充电会有安全隐患，当然只是做一个简易监控器，具体看大家怎么操作<img src="https://s3.bmp.ovh/imgs/2022/07/16/a1f5d13d3de4a964.jpeg" alt=""><br><img src="https://s3.bmp.ovh/imgs/2022/07/16/7a05d1a63e604340.jpeg" alt=""></li>
+<li><font color="#311B92" size="5">利用旧手机中继家里WIFI信号。</font><br/>家里WIFI信号太弱时常搜不到?不用怕，只要你有几部老旧手机就可以解决你的问题。<font color="#311B92">首先先下载一个软件，名字叫NetSharePro(无需ROOT) </font><br/>打开软件，手机连接到WIFI，确认WIFI连接正常以后点击开启WIFI热点就行了。注意:这里WIFI名字和密码是随机给的，不能更改。可以收到WIFI名字，证明成功。只要WIFI弱的地方不管是你工作的地方还是蹭人家的WIFI，一部老手机就能解决，手机越多，就可以中继更多的网络。<br/>我自己亲自尝试了一下，但实际上中继得到的WIFI还是很弱。<img src="https://s3.bmp.ovh/imgs/2022/07/16/aaa1f807e7fdbe4e.jpeg" alt=""><img src="https://s3.bmp.ovh/imgs/2022/07/16/20ada10b7746cbc2.jpeg" alt=""></li>
+<li><font color="#311B92" size="5">旧手机也可以用来当行车记录仪。</font><br/>旧手机也能当行车记录仪了只需要一个软件，老旧设备分分钟变成行车记录仪。<font color="#311B92">软件名:DailyRoads行车记录器(无需ROOT) </font><br/>打开软件，确保GPS已经打开 <br/>功能就如图所现，可以显示速度，GPS卫星颗数也了如指掌，只不过我在室内搜不到信号[喷]，点击左下角可以开始录制视频(录制视频前先把那个小麦克风图表先点一下)，不用就关掉，是不是非常简单。注意:使用此软件最好加一张大容量的SD卡做存储。录制的视频文件都可以直接查看。<img src="https://s3.bmp.ovh/imgs/2022/07/16/5beb19de53fb5b4e.jpeg" alt=""><img src="https://s3.bmp.ovh/imgs/2022/07/16/2db5b66fd2a197e6.jpeg" alt=""><img src="https://s3.bmp.ovh/imgs/2022/07/16/3fafe92436b7b154.jpeg" alt=""><img src="https://s3.bmp.ovh/imgs/2022/07/16/82ff536ad1730cba.jpeg" alt=""> </li>
+<li><font color="#311B92" size="5">把旧手机作为电脑副屏，监测电脑状况。</font><br/>我暂时没尝试过这个，下篇文章再与大家分享吧。<img src="https://s3.bmp.ovh/imgs/2022/07/16/47727829349aa0d7.jpeg" alt=""></li>
+<li><font color="#311B92" size="5">旧手机可以作为一台服务器，搭建网站。</font>&lt;/br&gt;我暂时没尝试过这个，下篇文章再与大家分享吧。</li>
 </ol>
 ]]></content>
       <categories>
@@ -122,9 +110,9 @@
 </div>
 <blockquote>
 <p>相信大家在皮皮虾、抖音、快手、最右等短视频平台看见喜欢的视频时，总有种下载原视频的冲动。但是直接在软件里保存的视频都有水印，影响了视频的观感。不少人已经会在微信搜索去水印小程序，或者使用去水印软件。其实这些小程序或者软件、网站去水印的原理大体都一致，没有部分人想的那么神奇。但是现在大部分去水印软件和程序都会出现广告，收费情况，有些一段时间就崩了，所以了解一下短视频去水印原理还是很有必要的。</p>
+<h2 id="抖音无水印解析原理"><a href="#抖音无水印解析原理" class="headerlink" title="抖音无水印解析原理"></a>抖音无水印解析原理</h2><p>看了很多篇无水印解析原理的文章，也询问了不少大佬，我个人觉得<strong>抖音无水印解析最为复杂</strong>。<br/><mark class="hl-label green">无水印解析的原理是拿到原视频（无水印的视频）链接</mark> <br/><mark class="hl-label blue">在抖音和皮皮虾软件里复制的视频链接是短链，经过了缩短处理，并不是真正的视频地址</mark> <br/>而我们通过复制分享链接到浏览器，通过浏览器打开的链接才是真正的视频地址。比如我的这个分享链接:<a href="https://v.douyin.com/jQE25c8/，">https://v.douyin.com/jQE25c8/，</a> 在浏览器里打开，真实的链接是这个:<a href="https://www.iesdouyin.com/share/video/7125008341419429155/?region=CN&amp;mid=">https://www.iesdouyin.com/share/video/7125008341419429155/?region=CN&amp;mid=</a><br/>其中7125008341419429155为视频id。通过浏览器的开发者模式可以看到以下代码:<br><img src="https://s2.loli.net/2022/08/22/BTlybxRu4I7SiWP.png" alt=""><br/>其中<a href="https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0">https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0</a> 为有水印的视频链接，请注意<mark class="hl-label blue">wm</mark> 这个词，wm为<mark class="hl-label green">watermark</mark> 的缩写，要想得到无水印的原视频链接，应该把<strong>wm</strong>删去。<br/>因此原视频链接为<a href="https://aweme.snssdk.com/aweme/v1/play/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0">https://aweme.snssdk.com/aweme/v1/play/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0</a><br/><strong>以上步骤纯手动完成，没有借助任何去水印软件</strong><br/>当然，如果你嫌麻烦，<mark class="hl-label blue">可以直接写几行代码得到真实视频地址，再通过把wm删去得到原视频地址</mark> </p>
+<h2 id="皮皮虾无水印解析原理"><a href="#皮皮虾无水印解析原理" class="headerlink" title="皮皮虾无水印解析原理"></a>皮皮虾无水印解析原理</h2><p>皮皮虾和抖音都是<mark class="hl-label green">字节跳动</mark> 下的产品，总体来说水印原理没什么两样，都是要拿到<mark class="hl-label red">原视频地址。</mark> <br/>同理，在软件里复制的视频链接是短链接，并不是视频真正的地址，只有在浏览器打开的地址才是真实地址。而真实地址含有<mark class="hl-label green">视频video_id，</mark> 这对拿到无水印视频很重要。<br/>以视频链接:<mark class="hl-label red">https://h5.pipix.com/s/jCeFokm/</mark> 为例。在浏览器把视频链接打开，得到的真实地址是<mark class="hl-label red">https://h5.pipix.com/item/7129757239295875332?app_id=</mark> ，其中这串数字为视频id。<br/>皮皮虾的去水印就相对简单，我们只需要讲这串数字与官方API对接，就可以拿到无水印的视频链接。<br><img src="https://s3.bmp.ovh/imgs/2022/08/22/b988533adc5526d9.jpg" alt=""><br/><br>官方API为:<a href="https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=">https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=</a><br/>所以<mark class="hl-label blue">原视频链接</mark> 为:<a href="https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=7129757239295875332">https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=7129757239295875332</a><br/>该操作在手机端也可以完成，只需要将原视频链接放在浏览器一打开便可以下载。<br/>所以，大家只要记住官方api,下次不必担心<mark class="hl-label blue">去水印小程序收费或者打广告啦</mark> 。</p>
 </blockquote>
-<h2 id="抖音无水印解析原理"><a href="#抖音无水印解析原理" class="headerlink" title="抖音无水印解析原理"></a>抖音无水印解析原理</h2><p>看了很多篇无水印解析原理的文章，也询问了不少大佬，我个人觉得<strong>抖音无水印解析最为复杂</strong>。<br/><mark class="hl-label green">无水印解析的原理是拿到原视频（无水印的视频）链接</mark> <br/><mark class="hl-label blue">在抖音和皮皮虾软件里复制的视频链接是短链，经过了缩短处理，并不是真正的视频地址</mark> <br/>而我们通过复制分享链接到浏览器，通过浏览器打开的链接才是真正的视频地址。比如我的这个分享链接:<a href="https://v.douyin.com/jQE25c8/%EF%BC%8C">https://v.douyin.com/jQE25c8/，</a> 在浏览器里打开，真实的链接是这个:<a href="https://www.iesdouyin.com/share/video/7125008341419429155/?region=CN&amp;mid=">https://www.iesdouyin.com/share/video/7125008341419429155/?region=CN&amp;mid=</a><br/>其中7125008341419429155为视频id。通过浏览器的开发者模式可以看到以下代码:<br><img src="https://s2.loli.net/2022/08/22/BTlybxRu4I7SiWP.png"><br/>其中<a href="https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0">https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0</a> 为有水印的视频链接，请注意<mark class="hl-label blue">wm</mark> 这个词，wm为<mark class="hl-label green">watermark</mark> 的缩写，要想得到无水印的原视频链接，应该把<strong>wm</strong>删去。<br/>因此原视频链接为<a href="https://aweme.snssdk.com/aweme/v1/play/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0">https://aweme.snssdk.com/aweme/v1/play/?video_id=v0d00fg10000cbghq1jc77u11u3kbnlg&amp;ratio=720p&amp;line=0</a><br/><strong>以上步骤纯手动完成，没有借助任何去水印软件</strong><br/>当然，如果你嫌麻烦，<mark class="hl-label blue">可以直接写几行代码得到真实视频地址，再通过把wm删去得到原视频地址</mark> </p>
-<h2 id="皮皮虾无水印解析原理"><a href="#皮皮虾无水印解析原理" class="headerlink" title="皮皮虾无水印解析原理"></a>皮皮虾无水印解析原理</h2><p>皮皮虾和抖音都是<mark class="hl-label green">字节跳动</mark> 下的产品，总体来说水印原理没什么两样，都是要拿到<mark class="hl-label red">原视频地址。</mark> <br/>同理，在软件里复制的视频链接是短链接，并不是视频真正的地址，只有在浏览器打开的地址才是真实地址。而真实地址含有<mark class="hl-label green">视频video_id，</mark> 这对拿到无水印视频很重要。<br/>以视频链接:<mark class="hl-label red">https://h5.pipix.com/s/jCeFokm/</mark> 为例。在浏览器把视频链接打开，得到的真实地址是<mark class="hl-label red">https://h5.pipix.com/item/7129757239295875332?app_id=</mark> ，其中这串数字为视频id。<br/>皮皮虾的去水印就相对简单，我们只需要讲这串数字与官方API对接，就可以拿到无水印的视频链接。<br><img src="https://s3.bmp.ovh/imgs/2022/08/22/b988533adc5526d9.jpg"><br/><br>官方API为:<a href="https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=">https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=</a><br/>所以<mark class="hl-label blue">原视频链接</mark> 为:<a href="https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=7129757239295875332">https://is.snssdk.com/bds/cell/detail/?cell_type=1&amp;aid=1319&amp;app_name=super&amp;cell_id=7129757239295875332</a><br/>该操作在手机端也可以完成，只需要将原视频链接放在浏览器一打开便可以下载。<br/>所以，大家只要记住官方api,下次不必担心<mark class="hl-label blue">去水印小程序收费或者打广告啦</mark> 。</p>
 ]]></content>
       <categories>
         <category>技术教程</category>
@@ -158,7 +146,7 @@
 <li><font color="#558B2F">年年有风 风吹年年 慢慢即漫漫</font></li>
 <li><font color="#9E9D24">季节更替，好多人忘了好多人 好多人又代替了好多人</font></li>
 <li><font color="#43A047">我一个人没有觉得孤独，说的浪漫些，我完全自由</font></li>
-<li><font color="#3F51B5">时间一直让人成长，却从不指明方向</font><img src="https://s3.bmp.ovh/imgs/2022/07/13/de0523d0ff2b57ac.jpg"></li>
+<li><font color="#3F51B5">时间一直让人成长，却从不指明方向</font><img src="https://s3.bmp.ovh/imgs/2022/07/13/de0523d0ff2b57ac.jpg" alt=""></li>
 </ol>
 ]]></content>
       <categories>
